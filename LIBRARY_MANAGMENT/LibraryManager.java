@@ -49,7 +49,7 @@ public class LibraryManager {
         }
     }
 
-    public void borrowBook(String memberId, String isbn) {
+    public synchronized void borrowBook(String memberId, String isbn) {
         Member member = getMember(memberId);
         Book book = getBook(isbn);
 
@@ -66,7 +66,7 @@ public class LibraryManager {
         }
     }
 
-    public void returnBook(String memberId, String isbn) {
+    public synchronized void returnBook(String memberId, String isbn) {
         Member member = members.get(memberId);
         Book book = catlog.get(isbn);
 
