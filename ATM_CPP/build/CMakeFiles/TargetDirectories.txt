@@ -1,0 +1,3 @@
+C:/Users/test/Desktop/my_repo/SystemDesign/ATM_CPP/build/CMakeFiles/atm.dir
+C:/Users/test/Desktop/my_repo/SystemDesign/ATM_CPP/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/test/Desktop/my_repo/SystemDesign/ATM_CPP/build/CMakeFiles/ZERO_CHECK.dir

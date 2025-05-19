@@ -1,0 +1,10 @@
+^C:\USERS\TEST\DESKTOP\MY_REPO\SYSTEMDESIGN\ATM_CPP\BUILD\CMAKEFILES\144BABB9EC76410E76DC3B9FA8E5B390\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/test/Desktop/my_repo/SystemDesign/ATM_CPP -BC:/Users/test/Desktop/my_repo/SystemDesign/ATM_CPP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/test/Desktop/my_repo/SystemDesign/ATM_CPP/build/ATMSystem.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
